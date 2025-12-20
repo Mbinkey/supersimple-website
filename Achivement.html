@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Achive</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+
+		 *{
+         box-sizing: border-box;
+         padding: 0px;
+         margin: 0px;
+      }
+
+	
+
+		nav{
+			display: flex;
+			justify-content: space-around;
+			padding: 5px;
+		}
+		.one span{
+			color: #4d4d4d;
+			font-weight: bolder;
+      }
+
+      .one{
+      	font-family: serif;
+      	font-weight:  bolder;
+      	font-size: 30px;
+      	font-style: italic;
+      	color: greenyellow;
+      }
+
+      .menu div{
+      	width: 35px;
+      	height: 5px;
+      	background-color: black;
+      	margin: 6px 0;
+      }
+
+      .two{
+         justify-content: space-evenly;
+      	background-color: #4d4d4d;
+      	height: 400px;
+      	width: 1000px;
+         padding: 50px;
+         margin: 20px;
+         margin-left: 100px;
+      }
+      .text{
+      	display: grid;
+      	justify-content: space-between;
+      	color: white;
+      	font-weight: lighter;
+      	font-size: 40px;
+      	font-family: serif;
+      	
+
+      }
+      .two button{
+      	border-radius: 50px;
+      	width: 400px;
+      	height: 50px;
+      	padding: 5px;
+      	background-color: greenyellow;
+      }
+
+      .arrow{
+      	display: flex;
+         margin-left: 400px;
+         margin-top: 50px;
+        
+      }
+
+      .two .text p{
+      	padding: 50px;
+      	margin: 15px;
+      	color: black;
+      	height: 10px;
+      	background-color: greenyellow;
+         border-radius: 100%;
+      	width: 25px;
+      	height: 25px;
+      }
+
+
+      .three{
+      	justify-content: flex-end;
+         background-color: greenyellow;
+      	height: 400px;
+      	width: 1000px;
+         margin-bottom: 100px;
+         padding-bottom: 100px;
+         margin-left: 100px;
+      	padding: 50px;
+      	padding-right: 200px;
+      }
+
+   
+
+      .three h4{
+      	text-align: center;
+      	padding: 20px;
+      }
+
+      .three p{
+      	width: 500px;
+      	padding: 40px;
+      }
+
+
+       .three button{
+      	background-color: #4d4d4d;
+      	color: greenyellow;
+       	border-radius: 50px;
+      	width: 400px;
+      	height: 50px;
+      }
+
+      .four{
+      	padding: 100px;
+         justify-content: space-around;
+      }
+
+      .cll p1{
+      	font-size: 50px;
+      	padding: 50px;
+      	padding: ;-bottom: 500px;
+      }
+
+      .cll img{
+      	height: 400px;
+      	width: 1000px;
+      	padding: 20px;
+      	margin: 20px;
+      }
+
+
+      .four button{
+      	border-radius: 50px;
+      	background-color: black;
+      	color: white;
+      	padding: 20px;
+      	margin: 20px;
+      }
+      .cll p{
+      	font-size: 30px;
+      	padding: 20px;
+      }
+
+      .cll h5{
+      	padding: 10px;
+      }
+
+      .five{
+      	text-align: center;
+      	background-color: cadetblue;
+      	height: 1400px;
+      	width: 1000px;
+         margin-left: 100px;
+         font-size: 25px;
+      }
+
+      .five img{
+      	border-radius: 100px;
+      	height: 200px;
+      	width: 200px;
+      }
+
+      .nine{
+      	text-align: center;
+      	padding: 30px;
+      	font-size: 50px;
+      }
+
+      .six{
+      	background-color: greenyellow;
+      	height: 300px;
+      	width: 700px;
+      	padding: 50px;
+      	border-radius: 25px;
+      	margin-left: 250px;
+      }
+
+      .six p6{
+      	text-align: center;
+      	padding: 25px;
+      	margin: ;-top: 20px;
+      	margin: 20px;
+      	font-size: 30px;
+      }
+
+      .sev{
+      	background-color: #4d4d4d;
+      	padding-bottom: 200px;
+      	height: 300px;
+      	width: 700px;
+      	padding: 50px;
+      	border-radius: 25px;
+      	margin-left: 250px;
+
+      }
+
+      .sev p7{
+      	text-align: center;
+      	padding: 25px;
+      	margin: ;-top: 20px;
+      	margin: 20px;
+      	font-size: 30px;
+
+      }
+
+      .eight{
+      	background-color: orange;
+      	height: 300px;
+      	width: 700px;
+      	padding: 50px;
+      	border-radius: 25px;
+      	margin-left: 250px;
+      }
+
+      .eight p8{
+      	text-align: center;
+      	padding: 25px;
+      	margin-top: 20px;
+      	margin: 20px;
+      	font-size: 30px;
+      }
+
+      .ten{
+      	text-align: center;
+      	padding: 100px;
+      	padding-left: 375px;
+      	margin: 25px;
+      	width: 1000px;
+      	font-size: 20px;
+      }
+
+      .ten h3{
+      	font-family: cursive;
+      	padding: 50px;
+      }
+
+      .ten p{
+      	color: grey;
+      	font-weight: bolder;
+      }
+
+      footer{
+      	background-color: #4d4d4d;
+      	height: 1300px;
+      	width: 1000px;
+      	padding: 50px;
+      	margin: 100px;
+      }
+
+      footer p0{
+      	text-align: center;
+      	color: greenyellow;
+      	font-size: 30px;
+      	padding: 100px;
+      	margin: 100px;
+      }
+
+      .icons i{
+      	color: white;
+      	margin: 15px;
+      	padding: 25px;
+      }
+
+      .icons p1{
+
+         text-align: center;
+      	color: white;
+      	width: 10px;
+      	height: 20px;
+      }
+
+      form input{
+      	display: grid;
+      	padding: 25px;
+      	margin: 25px;
+
+      }
+
+      .para{
+         display: flow;
+         justify-content: center;
+         text-align: center;
+         width: 700px;
+
+         
+      }
+
+      footer button{
+      	border-radius: 50px;
+      	padding: 25px;
+      	margin-left: 50px;
+      	background-color: greenyellow;
+      	width: 200px;
+      }
+
+      .ice{
+      	border: greenyellow outset  3px;
+      }
+
+      .pol p{
+         font-size: 20px;
+         padding: 20px;
+         margin: px;
+      }
+      .pol a{
+         display: grid;
+         text-decoration: none;
+         padding: 20px;
+      }
+
+   .pol p2{
+      padding: 20px;
+      margin: 20px;
+      font-size: 25px;
+   }
+
+   p8{
+      margin: 50px;
+      padding: 50px;
+   }
+   .my{
+      text-align: center;
+   }
+
+   .lp{
+      display: flex;
+      justify-content: space-around;
+   }
+
+     
+
+	</style>
+   
+</head>
+<body>
+
+	<nav>
+		<div class="one">
+			<span>{</span> coding <span>:</span> lab<span>}</span>
+		</div>
+
+		<div class="menu">
+			
+			<div> </div>
+			<div> </div>
+			<div> </div>
+
+		</div>
+	</nav>
+
+	<div class="two">
+		<div class="text">
+		<p2>View Our Students'Achivements</p2>
+		<h6>Your Child Could be next!</h6>
+		<button>View Students'Achivements</button>
+
+   <div class="arrow">
+      <p>&larr;</p>
+      <p>&rarr;</p>
+     </div>
+	</div>
+	</div>
+
+	<div class="three">
+		<h4>An Award-Winning Coding Curriculum to Nature Feature leaders<br> in Technology</h4>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+
+		<button>See our Student'Achivements</button>
+
+	</div>
+   
+
+  <div class="four">
+  	<div class="cll">
+  		<p1>Give your child a headstart in digital age</p1><br>
+
+       <img src="joy.jpg">
+
+  		<p>Age 5-6</p>
+
+  		<h5>scratch jr|Robotics|Montessori|Tinkeringwith stem</h5>
+
+  	  <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p3>
+
+		<button>Courses for Ages 5-6</button><br>
+
+
+		<img src="green.jpg">
+
+		<p>Ages 7-9</p>
+
+		<h5>scratch|Micro:bit|mBot Robotics|Game Development| Young Computer Scietist</h5>
+
+		<p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p3>
+
+      <button>Courses for Ages 7-9</button><br>
+
+      <img src="color.jpg">
+
+      <p>Ages 10-12</p>
+      <h5>App Development |python|Advanced|Computer Scientists|Director School Admission(DSA)|HCIC</h5>
+
+      <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p3>
+
+      <button>Courses for Ages 10-12</button><br>
+
+      <img src="group.jpg">
+
+
+      <p>Ages 13-18</p>
+
+      <h5>Python\olympiad|AI|Data science|Web Apps|Game Developmen|modelling & simulation</h5>
+
+      <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p3>
+
+      <button>Courses for Ages 13-18</button><br>
+
+      <img src="family3.jpg">
+
+      <p>Academics</p>
+
+      <h5>DSA preparation|GCE 'O'Level computing|Olympiad(NOI)preparation</h5>
+
+      <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p3>
+
+      <button>Academics Courses</button><br>
+
+      <img src="kid.jpg">
+      <p>special programmes</p>
+      <h5>Minecraft cup|Olympiad(NOI)preparation|HCIC preparation|competitions</h5>
+
+      <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.</p3>
+
+      <button>Special programmes</button><br>
+
+      <img src="group.jpg">
+
+      <p>Thematic Workshops</p>
+
+      <h5>2-Hr programmes|Multiple Age Groups</h5>
+
+      <p3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p3>
+
+      <button>Thematic Workshops</button>
+
+
+  
+  	</div>
+  </div>
+
+  <div class="five">
+  	
+  	<p4> Statistics</p4><br>
+  	<img src="mar.jpg">
+  	<p>56+ <br> Global\National Students'Achievements</p>
+
+  	<img src="joy.jpg">
+  	<p>35+<br> Successful DSAs</p>
+    
+
+    <img src="fem.jpg">
+    <p>2015<br>Nurturing Students since 2015</p>
+
+    <img src="logic.jpg">
+    <p>15,000+<br> Delighted Students</p>
+
+    <img src="tech.jpg">
+    <p>39+<br>Courses for Ages 5-18</p>
+ </div>
+ 
+
+<div class="lab">
+
+  <div class="nine">
+   <p9>The coding Lab&reg; Difference</p9>
+  </div>
+
+  <div class="six">
+  	<p6>MIT-Inspired Curriculum</p6>
+
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+  </div>
+  
+
+  <div class="sev">
+  	<p7>High Quality Teaching</p7>
+
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  	cillum dolore eu fugiat nulla pariatur.</p>
+ 
+  </div>
+  <div class="eight">
+  	<p8>Rigorous Programme that drives Result</p8>
+
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  	tempor incididunt ut labore et dolore magna aliqua. Utb mnbihnkey mmariama sillah.</p>
+  </div>
+</div>
+  <div class="ten">
+
+ <h3>coding is the new letracy</h3>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+
+ </div> 
+
+ <footer>
+
+ 	<div class="ice">
+ 	<p0>Follow Us</p0>
+ 	<div class="icons">
+
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+	   <i class="fa-brands fa-youtube"></i>	
+	   <i class="fa-brands fa-facebook"></i><br>
+
+
+      <div class="para"><
+	   <p1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	   quis nostrud exercitation ullamco laboris .</p1>
+   </div>
+
+	   <form>
+	   	
+	   	<input type="text" name="label" placeholder="First Name">
+	   	<input type="text" name="label" placeholder="Last name">
+	   	<input type="text" name="label" placeholder="Email ">
+	   </form>
+
+	   <button>subscribe</button><br>	
+
+	</div>
+
+	   <div class="pol">
+
+	   <p>policies</p>
+	   <a href="terms of services">Terms of Services</a>
+	   <a href="Privacy Policy">privacy Policy</a>
+	   <a href="Terms Calender">Terms Calender</a>
+
+
+   <div class="my">  
+	  <p2>learning Centres</p2>
+
+	  <p8><h5>Parkway Parade</h5>
+      <p3>80 Parade Road #10-06 S449269</p3></p8>
+
+
+	   <p9></p><h5>Bukit Timah</h5>
+
+	  <p4>9 king Albert Park (KAP Mall)#02-21 S598332</p4></p9>
+   </div>
+
+	  <p>Contact Us</p>
+
+	  <a href="">+65 69779641</a>
+	  <a href="">learntocode@cocdinglab.com.sg</a>
+	  <p>80 Marine parade Road #10-06 singapore 449269</p>
+
+
+    <div class="lp">
+
+	   <i class="fa-brands fa-square-instagram"></i>y
+      <i class="fa-brands fa-linkedin"></i>
+	   <i class="fa-brands fa-youtube"></i>	
+	   <i class="fa-brands fa-facebook"></i>
+   </div>
+ </div>
+	</div>
+
+
+
+</footer>
+
+
+
+</body>
+</html>
